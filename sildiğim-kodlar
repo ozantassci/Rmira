@@ -1,0 +1,26 @@
+.products-content,
+.kvkk-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 250px;
+}
+
+.products-img,
+.kvkk-img {
+  width: 50%;
+}
+.products-img img,
+.kvkk-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.products-text,
+.kvkk-text {
+  width: 100%;
+  padding: 0 80px;
+  color: #222;
+  /* text-align: center; */
+}
